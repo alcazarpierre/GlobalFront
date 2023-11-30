@@ -1,0 +1,23 @@
+.dashFaq-Contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-style: groove;
+    
+    
+  }
+  
+  .faq-Content {
+    flex: 1;      
+  }
+
+  .faq-Content p {
+    color: black;     
+  }
+  
+  .delete-button {
+    margin-left: 10px; 
+  }
+  

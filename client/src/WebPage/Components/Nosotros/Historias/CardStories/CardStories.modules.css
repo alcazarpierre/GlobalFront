@@ -1,0 +1,62 @@
+
+.card-stories-container {
+  display: flex;
+  margin-left: 6em;
+  margin-right: 8em;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  }
+  
+  .card-stories-image {
+    max-width: 300px; 
+    max-height: 300px; 
+    width: 100%; 
+    height: auto; 
+    margin: 15px;
+  }
+  
+  .card-stories-content {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .card-stories-title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;  
+  }
+  
+  .card-stories-description {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .card-stories-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .card-stories-location,
+  .card-stories-date {
+    font-size: 1em;
+    display: flex;
+    color: #3c3c3c;
+    margin: 0px;
+  }
+  
+  .card-stories-date {
+    font-style: italic; 
+    color: black;
+    font-size: medium;
+  }
+  
+  .card-stories-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+    height: 100%;
+    object-fit: cover;
+  }

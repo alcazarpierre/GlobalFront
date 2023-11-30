@@ -1,0 +1,65 @@
+.cards-events-containers {
+  display: flex;
+  margin-bottom: 50px;
+  margin-right: 4em;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.card-event-container {
+  display: flex;
+  gap: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  border-bottom:2px solid #a6a6a6;
+}
+
+.card-event-image {
+  max-width: 300px; 
+  max-height: 300px; 
+  width: 100%; 
+  height: auto; 
+  margin: 15px;
+}
+
+.card-event-content {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.card-event-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;  
+}
+
+.card-event-description {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.card-event-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.card-event-location,
+.card-event-date {
+  display: flex;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin: 0px;
+}
+
+.card-event-image img {
+  width: 100%;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}

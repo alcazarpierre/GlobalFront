@@ -1,0 +1,44 @@
+.card-posteo {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(187, 187, 187, 0.515);
+  min-height: 200px;
+}
+
+.imagen-post {
+  width: 240px;
+  height: 200px;
+  border-radius: 15px;
+}
+.delete-editar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  height: 100%;
+}
+.cartel-confirmacion {
+  position: absolute;
+  border-radius: 20px;
+  right: 120px;
+  top: 90px;
+  background-color: #1a5a9e;
+}
+.cartel-confirmacion h2 {
+  color: white;
+}
+.button-editar-post {
+  background-color: #19599e;
+}
+.button-editar-post:hover {
+  background-color: rgb(230, 68, 68);
+}
+.parrafo-novedad {
+  text-align: justify;
+  padding: 4px;
+}

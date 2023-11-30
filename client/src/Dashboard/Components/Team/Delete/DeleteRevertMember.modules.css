@@ -1,0 +1,117 @@
+.revert-action-icons,
+.trash-action-icons {
+    width: 40%;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.revert-action-icons:hover,
+.trash-action-icons:hover {
+    cursor: pointer;
+}
+
+.deleted-member-form-options {
+    display: flex;
+    flex-direction: row;
+}
+
+.final-revert-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.final-delete-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.final-delete-popup,
+.final-restore-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.final-delete-content,
+.final-restore-content {
+    padding: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: none;
+    box-shadow: 11px 16px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.final-delete-content {
+    background-color: #cf2300;
+}
+
+.final-restore-content {
+    background-color: #0c2743;
+}
+
+.final-delete-content h2,
+.final-restore-content h2 {
+    font-size: 2em;
+    color: white;
+}
+
+.final-delete-content p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.button-final-delete-container,
+.button-final-restore-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.final-delete-button, 
+.final-cancel-button,
+.final-restore-accept-button,
+.final-restore-cancel-button {
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    user-select: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.final-delete-button, 
+.final-cancel-button {
+    background-color: #333333;;
+}
+
+.final-restore-accept-button {
+    background-color: #00805d;
+}
+
+.final-restore-cancel-button {
+    background-color: #cf2300;
+}
+
+.final-delete-button:hover, 
+.final-cancel-button:hover,
+.final-restore-accept-button:hover,
+.final-restore-cancel-button:hover {
+    box-shadow: 11px 13px 8px 0px #000000a8;
+}

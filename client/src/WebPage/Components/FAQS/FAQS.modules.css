@@ -1,0 +1,69 @@
+.main-faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  #faq-text {
+    color: #1a5a9e;
+    text-align: left;
+  }
+
+  h3.ask-web-faq,
+  p.answer-web-faq {
+    color: #1a5a9e;
+  }
+
+  .dashFaq-Contenedor p,
+  .dashFaq-Contenedor h3{
+    color: #1a5a9e;
+  }
+
+  .info-card-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px; /* ajusta según tus necesidades */
+    margin-top: 20px;
+  }
+  
+.adminFaq-dash h1 {
+  color: #1a5a9e
+}
+
+.card-stories-description,
+.card-projects-description,
+.card-event-description,
+.card-news-description,
+.card-achievements-description {
+  color: #1a5a9e
+}
+
+  .info-card {
+    max-width: 200px; /* Tamaño ajustado */
+    max-height: 266px; /* Proporción 3:4 para mantener la relación de aspecto */
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px; /* Margen entre info-cards */
+    border: 1px solid #ccc;
+    text-align: justify;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .info-card img {
+    width: 50%;
+    height: auto;
+    display: block; /* Esto ayuda a centrar verticalmente la imagen */
+    margin: 0 auto; /* Esto también ayuda a centrar verticalmente la imagen */
+  }
+  
+  
+  .info-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .faq-component-container {
+    margin-top: 20px;
+  }
+  

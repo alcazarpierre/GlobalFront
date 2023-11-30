@@ -1,0 +1,72 @@
+.card-proyect {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
+  border: 3px solid #19599e;
+  border-radius: 10px;
+  background-color: rgba(187, 187, 187, 0.515);
+}
+.card-proyect:hover {
+  border: 3px solid #f7ac32;
+}
+.imagen-proyect {
+  border-radius: 10px;
+  width: 240px;
+  height: 100%;
+}
+.title-proyect {
+  width: 100%;
+  height: 35px;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: rgba(255, 0, 0, 0);
+}
+.description-proyect {
+  background-color: rgba(255, 0, 0, 0);
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.boton-delete {
+  margin-bottom: 100px;
+  border-radius: 50%;
+  background-color: #19599e;
+}
+.boton-delete:hover {
+  background-color: rgb(230, 68, 68);
+}
+.delete {
+  border-radius: 20px;
+  width: 300px;
+  background-color: #1a5a9e;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 100px;
+  border: 2px solid black;
+}
+.botonesSiNo {
+  background-color: rgba(203, 32, 32, 0);
+  display: flex;
+  justify-content: space-around;
+}
+.boton-cartel {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+.pregunta {
+  color: white;
+  font-size: large;
+}
+.div-botones {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: end;
+  justify-content: space-between;
+}

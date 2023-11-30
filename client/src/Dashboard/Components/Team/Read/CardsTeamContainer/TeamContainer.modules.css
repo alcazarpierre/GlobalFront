@@ -1,0 +1,38 @@
+.team-page {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 100px;
+  left: 250px;
+}
+
+.agregar-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button.agregar-button {
+  background-color: #ff9e00;
+  margin-top: 25px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+button.agregar-button:hover {
+  border: 1px solid #ff9e00;
+}
+
+.team-page h1, h2 {
+  color: #19538e;
+}
+
+.team-title {
+  margin-bottom:30px
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

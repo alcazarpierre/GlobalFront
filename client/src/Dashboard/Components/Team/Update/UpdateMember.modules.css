@@ -1,0 +1,81 @@
+.member-update-enabled-button {
+    background-color: #00805d;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.member-delete-button {
+    background-color: #ff2b00;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.delete-confirmation-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.delete-confirmation-content {
+    background-color: #0c2743;
+    padding: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: none;
+    box-shadow: 11px 16px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.delete-confirmation-content h2 {
+    font-size: 2em;
+    color: white;
+}
+
+.delete-confirmation-content p {
+    margin-bottom: 30px;
+    font-size: 1em;
+    color: white;
+}
+
+.button-confirmation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.update-cancel-button,
+.update-delete-accept-button {
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    user-select: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.update-cancel-button {
+    background-color: #00805d;
+}
+
+.update-delete-accept-button {
+    background-color: #cf2300;
+}
+
+
+.update-cancel-button:hover,
+.update-delete-accept-button:hover {
+    box-shadow: 11px 13px 8px 0px #000000a8;
+}

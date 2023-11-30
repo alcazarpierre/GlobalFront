@@ -1,0 +1,83 @@
+.head {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 250px;
+  height: 90px;
+  background-color: #1a5a9e;
+  display: flex;
+  justify-content: end;
+  z-index: 9;
+  box-shadow: 1px 6px 9px 0px rgb(85 85 85);
+}
+.head.loaded {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.bienvenido,
+.admin-logout,
+.foto-admin {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.bienvenido.visible,
+.admin-logout.visible,
+.foto-admin.visible {
+  opacity: 1;
+}
+.foto-admin {
+   margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  max-width: 90px;
+  object-fit: cover;
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.5s;
+}
+.foto-admin.visible {
+  opacity: 1; /* Hacer visible después de cargar */
+}
+
+.foto-admin.invisible {
+  opacity: 0; /* Mantener invisible si aún no ha cargado completamente */
+}
+
+.bienvenido {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0);
+}
+.h2-foto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(181, 45, 45, 0);
+}
+
+.admin-name-logout p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.admin-name-logout p:hover {
+  color: rgb(1, 1, 130);
+  cursor: pointer;
+}
+
+p.admin-logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  font-size: large;
+}
+
+.logout-button{
+  border-radius: 0px !important;
+}

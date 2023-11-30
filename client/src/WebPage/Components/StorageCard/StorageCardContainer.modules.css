@@ -1,0 +1,30 @@
+
+.storageCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.storageCardContainer-buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storageCardContainer-nextButton,
+.storageCardContainer-prevButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.storageCardContainer-nextButton:hover,
+.storageCardContainer-prevButton:hover {
+    background-color: #0b7dda;
+}

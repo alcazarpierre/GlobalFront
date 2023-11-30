@@ -1,0 +1,153 @@
+/*.contacto-container {
+    position: relative;
+  }
+  
+  .parallax-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94 96 101 / 56%);
+    z-index: 2;
+  } */
+
+
+/*.contact-form-columns {
+    background-color: #4b9aaf;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    }
+
+.texto3 {
+    font-size: 21px;
+    margin-left: 2%;
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    margin-right: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.botonplano {
+    width: 50%;
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+
+}
+
+.contacto-formu {
+    padding-top: 3%;
+    font-family: "Lato", sans-serif;
+
+}
+
+.inputname {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+
+}
+
+.inputcampo {
+    margin-top: 30px;
+    margin-right: 200px;
+    font-family: "Lato", sans-serif;
+}
+
+
+.inputcontacto {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    padding-left: 30%;
+    margin-top: 8px; 
+    width: 100%; 
+}
+
+.inputcampo h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputcampo input {
+    width: 20em;
+    color: black;
+    height: 3em;
+}
+*/
+.webpage-contact-form-title {
+    padding-top: 35px;
+}
+
+h2.webpage-contact-form-title {
+    font-size: 2.5em;
+    color: white;
+}
+
+.bottom-contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-form-contents-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.webpage-contact-form-left-column {
+    width: 40%;
+}
+
+.webpage-contact-form-right-column {
+    width: 30%;
+}
+
+.intro-text,
+.other-hub-shaper-invite {
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: left;
+}
+.other-hub-shaper {
+    font-size: 2em;
+    color: #1ca3ff;
+    font-weight: 500;
+    text-align: left;
+}
+.button-shaper-hub {
+    display: flex;
+    background-color: #1a5a9e;
+}
+
+#label-contact-form {
+    color: white;
+    font-size:1.25em;
+}
+
+#input-contact-form {
+    background-color: white;
+    border: none;
+    border-radius: 4%;
+    border: 2px solid #1ca3ff;
+    font-size: 1em;
+    margin-top: 2px;
+    margin-right: 10px;
+    padding-top: 9px;
+    padding-left: 6px;
+    color: #123d68;
+}

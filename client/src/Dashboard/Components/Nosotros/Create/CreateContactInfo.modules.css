@@ -1,0 +1,68 @@
+.contactmainContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .contactformContainer {
+    width: calc(50% - 125px);
+    max-width: 800px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 4em;
+    background-color: #19538e;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  }
+  
+  .updatedInfoContainer {
+    width: 75%;
+    align-items: center;
+    padding: 1em;
+    background-color: #19538e;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+    margin-bottom: 20px;
+  }
+  
+  .contactlabel {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  .contactinput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #19538e;
+    box-sizing: border-box;
+  }
+  
+  .updatedInfoContainer h2,
+  .contactformTitle {
+    color: white;
+  }
+  
+  .contactsubmitButton {
+    background-color: white;
+    color: #19538e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px; 
+  }
+  
+  .contactsubmitButton:hover {
+    background-color: #19538e;
+  }
+
+  

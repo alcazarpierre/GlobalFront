@@ -1,0 +1,17 @@
+.novedades-web-container{
+    position: relative;
+    margin-top: 9%;
+}
+
+.eventos-title {
+    color: #1a5a9e;
+}
+
+.StorageCard-h3{
+    color:#1a5a9e;
+    font-weight: 16px;
+}
+
+.storageCardContainer-novedades-web-container {
+    margin: 40px;
+}

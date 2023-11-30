@@ -1,0 +1,72 @@
+.donacion-unica-container {
+  width: 80%;
+  height: 50em;
+  max-width: 900px;
+  margin: 300px auto 0px; 
+  padding: 20px;
+  background-color: #ebebeb;
+  border: 2px solid #19538e;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.donacion-unica-container h3 {
+  color: #19538e;
+  margin-bottom: 20px;
+}
+
+.amount-options {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.amount-options button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #19538e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.amount-options input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  background-color: white;
+  color: black; 
+  border: 1px solid #19538e;
+  border-radius: 4px;
+}
+
+
+.donate-button {
+  background-color: #19538e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.donate-button:hover {
+  background-color: #19538e;
+}
+
+.mpsdk-Wallet {
+  margin-top: 20px;
+  width: 80%;
+}

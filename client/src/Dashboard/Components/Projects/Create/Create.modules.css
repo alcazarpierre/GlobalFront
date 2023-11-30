@@ -1,0 +1,237 @@
+.container-formulario {
+  position: absolute;
+  right: 0;
+  top: 90px;
+  left: 250px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.container-formulario input {
+  background-color: white;
+}
+/* .formulario-compartido {
+  background-color: aqua;
+} */
+.proyecto-agregado {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 90px;
+  left: 250px;
+  background-color: rgba(0, 0, 0, 0.76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto-agregado h2 {
+  color: white;
+}
+.cartel {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #1a5a9e;
+}
+.selectores {
+  display: flex;
+  flex-direction: column;
+
+  width: 20em;
+
+  align-items: center;
+}
+.form {
+  width: 60%;
+  height: 100%;
+}
+.formulario-compartido {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.container-members-select {
+  background-color: white;
+  width: 325px;
+  height: 170px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+}
+.nombre-agregado {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #1a5a9e;
+  width: 120px;
+  height: 50px;
+}
+.nombre-agregado h2 {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(153, 205, 50, 0);
+}
+.nombre-agregado button {
+  font-size: 15px;
+  width: 28px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 44, 44);
+}
+.imagen-miembros {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.div-imagen {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+.imagen-posteo {
+  width: 100%;
+  height: 100%;
+}
+.input-imagen {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+}
+.imagen-input {
+  width: 100%;
+  display: flex;
+}
+.archivo-estado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.estado {
+  width: 50%;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+}
+.title-date {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  gap: 3em;
+}
+.div-labeltitle {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.label-post {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.div-labeldate {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.description-localidad {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  height: 150px;
+}
+.label-descripcion {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.input-descripcion {
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  background-color: white;
+  border-radius: 10px;
+  height: 70%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 45%;
+  min-height: 30%;
+  overflow-y: auto;
+  color: #1a5a9e;
+  font-size: 1.5em;
+}
+.label-location {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.input-general {
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+}
+.div-grande {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+  height: 220px;
+}
+.select-style {
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  font-size: large;
+  color: #1a5a9e;
+  height: 35px;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.div-categoria {
+  display: flex;
+  justify-content: center;
+}
+.botones-form {
+  margin: auto;
+  width: 200px;
+}
+.p-errors {
+  color: red;
+  font-size: medium;
+}
+.boton-volver {
+  position: absolute;
+  left: 20%;
+  top: 20px;
+}

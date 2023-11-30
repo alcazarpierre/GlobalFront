@@ -1,0 +1,20 @@
+.adminFaq-dash {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+    top: 90px;
+    left: 250px;
+    padding: 20px;
+    background-color: #ebebeb;
+    text-align: left;
+  }
+  .adminFaq-dash h1{
+    text-align: center;
+  }
+  .adminFaq-dash h2{
+    text-align: center;
+  }
+
+ 
+ 

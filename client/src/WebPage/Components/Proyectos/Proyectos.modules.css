@@ -1,0 +1,129 @@
+.webProyectos {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.titulo-general-webProyectos {
+  margin-bottom: 20px;
+}
+
+.contenedor-superior-webProyectos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.contenedor-superior-izquierdo-webProyectos {
+  flex: 1;
+}
+
+.contenedor-superior-derecho-webProyectos {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cardProyecto-webProyectos {
+  background: linear-gradient(to bottom, #1a5a9ef1, #297fb98c);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  max-width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cardTitulo-webProyectos {
+  font-size: 0.5em; /* La mitad del tamaño actual */
+  color: white;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.cardTexto-webProyectos {
+  color: white;
+  margin-bottom: 10px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonCard-container-webProyectos {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.buttonCard-webProyectos {
+  background-color: white;
+  color: #1a5a9e;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttonCard-webProyectos:hover {
+  transform: scale(1.05);
+}
+
+.proyectoImg-webProyectos {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cardProyecto-webProyectos:hover{
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.projectsContainer-webProyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+.title-container-webProyectos {
+  width: 100%; 
+  margin-bottom: 10px; 
+}
+
+.categoryAllPost-container-webProyectos {
+  flex: 1.5;
+  max-width: calc(70% - 10px);
+  margin-bottom: 10px;
+}
+
+.rightSide-container-webProyectos {
+  flex: 1;
+  max-width: calc(30% - 10px);
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .contenedor-superior-izquierdo-webProyectos {
+    display: none;
+  }
+
+  .contenedor-superior-derecho-webProyectos {
+    flex: 1; 
+  }
+
+  .rightSide-container-webProyectos {
+    display: none;
+  }
+
+  .categoryAllPost-container-webProyectos {
+    flex: 1;
+    max-width: calc(100% - 10px);
+  }
+}

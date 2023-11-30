@@ -1,0 +1,96 @@
+.roles-container {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    top: 100px;
+    left: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.roles-container h1 {
+    color: #19538e;
+}
+
+h3.go-back-team  {
+    color: #19538e;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+}
+
+h3.go-back-team:hover {
+    color: #123d68;
+    text-decoration: underline;
+}
+
+.create-read-role-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.roles-create-container {
+    width: 25%;
+}
+
+h2.create-role-title {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#role-name {
+    background-color: white;
+    border: none;
+    border-radius: 4%;
+    box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+    font-size: 1em;
+    margin-top: 2px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    padding-top: 9px;
+    padding-left: 6px;
+    color: #123d68;
+}
+
+.button-create-role {
+    background-color: #19538e;
+}
+
+.roles-list {
+    text-align: right;
+    width: 30%;
+}
+
+.roles-list h3 {
+    color: #19538e;
+}
+
+.displayed-role {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-bottom: 2px solid #19538e;
+}
+
+h2.displayed-role {
+    margin-bottom: 15px;
+}
+
+.button-delete-role {
+    background-color: #ff2b00;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.button-delete-role svg {
+    width: 20px;
+}

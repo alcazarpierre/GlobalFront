@@ -1,0 +1,44 @@
+.home-dash {
+  position: fixed;
+  top: 90px;
+  left: 250px;
+  background-color: #fff;
+  color: black;
+}
+
+.info-container-home-dash {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  height: 100vh;
+  margin: 50px;
+}
+
+.title-home-dash, .subTitle-home-dash {
+  margin-bottom: 10px;
+}
+
+.title-home-dash h1{
+  color: rgb(56, 56, 56);
+}
+
+.content-home-dash {
+  text-align: justify;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.content-home-dash h3 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(43, 43, 43);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  color: rgb(43, 43, 43);
+}

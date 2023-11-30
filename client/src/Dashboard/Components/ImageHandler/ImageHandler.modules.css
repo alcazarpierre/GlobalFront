@@ -1,0 +1,15 @@
+.image-description-container .description-input textarea {
+    height: 100px;
+  }
+  
+  p.uploading-image,
+  p.image-formats {
+    color:#19538e;
+    font-weight: bold;
+  }
+  
+  p.image-formats {
+    margin-top: 0px;
+    margin-bottom:2px
+  }
+  

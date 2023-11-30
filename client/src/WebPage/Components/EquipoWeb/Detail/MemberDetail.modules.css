@@ -1,0 +1,97 @@
+.member-detail-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+  
+.member-detail-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    position: relative;
+    box-shadow: 10px 8px 10px 0px rgb(6 33 65 / 81%);
+}
+
+.close-button {
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #333;
+}
+
+.image-linkedin-container {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.member-detail-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.linked-icon-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.member-detail-content {
+    flex: 1;
+    margin-left: 20px;
+}
+  
+.web-member-name {
+    display: flex;
+    flex: row;
+    font-size: 2em;
+    color: #1a5a9e;
+}
+
+.web-member-forename {
+    margin-right: 10px;
+}
+
+.web-member-forename,
+.web-member-lastname {
+    margin-bottom: 0px;
+}
+
+.web-member-role p {
+    margin-top: 0px;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
+}
+
+.web-member-description p {
+    font-size: 1.2em;
+    color: rgb(63, 63, 63);
+}
+
+.web-posts-container p {
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color:#11355d;
+}
+
+.web-posts-container li {
+    color: rgb(63, 63, 63);
+    font-size: 1.2em;
+    font-weight: 500;
+}

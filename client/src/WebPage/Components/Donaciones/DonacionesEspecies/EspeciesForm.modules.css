@@ -1,0 +1,61 @@
+.especies-form {
+  width: 80%;
+  max-width: 400px;
+  margin: 300px auto 0px;
+  padding: 95px;
+  background-color: #ebebeb;
+  border: 2px solid #19538e;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 0px rgb(25 89 158);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.especies-form h3 {
+  color: #19538e;
+}
+
+.especies-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #19538e;
+}
+
+.especies-form input{
+  width: 30em;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.especies-form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 16px;
+  border: 1px solid #19538e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.especies-form textarea {
+  height: 100px;
+  resize: none;  
+}
+
+.especies-form button {
+  background-color: #19538e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.especies-form button:hover {
+  background-color: #19538e;
+}
+
+
+  
