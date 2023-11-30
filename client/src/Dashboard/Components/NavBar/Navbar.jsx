@@ -3,7 +3,7 @@ import "./Navbar.modules.css";
 import { Link } from "react-router-dom";
 // Importaciones de imagenes
 import logo from "../../../assets/Images/General/Isologo1.png";
-import homeimg from "../../../assets/Images/Icons/home.png";
+// import homeimg from "../../../assets/Images/Icons/home.png";
 import teamimg from "../../../assets/Images/Icons/stars.png";
 import projectsimg from "../../../assets/Images/Icons/manos.png";
 import donationsimg from "../../../assets/Images/Icons/handshake.png";
@@ -16,7 +16,7 @@ const NavBarDashboard = () => {
       <img src={logo} alt="Logo" className="navbar-logo" />
       <ul className="navbar-menu">
         <li>
-          <img src={homeimg} alt="Team" className="navbar-icon" />
+          {/* <img src={homeimg} alt="Team" className="navbar-icon" /> */}
           <Link to="/admin">HOME</Link>
         </li>
         <li>
